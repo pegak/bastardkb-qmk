@@ -82,7 +82,7 @@ enum custom_keycodes {
 // Tap Dance definitions
 qk_tap_dance_action_t tap_dance_actions[] = {
     //[TD_CZ_U] = ACTION_TAP_DANCE_DOUBLE(CZ_U, CZ_URNG)
-    [TD_CZ_U] = ACTION_TAP_DANCE_DOUBLE(KC_ESC, KC_CAPS),
+    //[TD_CZ_U] = ACTION_TAP_DANCE_DOUBLE(KC_ESC, KC_CAPS),
 };
 
 void matrix_scan_user(void) {
